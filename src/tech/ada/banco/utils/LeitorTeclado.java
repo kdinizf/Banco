@@ -12,6 +12,7 @@ public class LeitorTeclado {
             return entrada.nextInt();
         } catch (InputMismatchException e) {
             return getNumero(frase);
+
         }
 
     }
